@@ -1,0 +1,74 @@
+* {
+    padding: 0px;
+    margin: 0;
+    font-family: Poppins;
+}
+
+.navigation {
+    background-color: #c4eef2;
+    width: 100vw;
+    height: 16vh;
+    display: flex;
+}
+
+.ChildA,
+.ChildB,
+.ChildC {
+    flex: 1;
+}
+
+.ChildA {
+    background-color: #025159;
+}
+
+.ChildB {
+    background-color: #3f858c;
+}
+
+.ChildC {
+    background-color: #025159;
+}
+
+.ChildD {
+    background-color: #3f858c;
+    flex: 2;
+    w
+}
+
+.Main {
+    background-color: #c4eef2;
+    width: 100vw;
+    height: 84vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Content {
+    background-color: #3f858c;
+    width: 35vw;
+    height: 45vh;
+}
+
+.Pigs {
+    width: 35vw;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Child1 {
+    background-color: #025159;
+    height: 14vh;
+}
+
+.Child2 {
+    background-color: #3f858c;
+    height: 14vh;
+}
+
+.Child3 {
+    background-color: #025159;
+    height: 14vh;
+}
